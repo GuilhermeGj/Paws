@@ -1,0 +1,17 @@
+output_dir: Paws/Generated
+
+xcassets:
+  - inputs:
+      - Paws/Assets.xcassets
+    outputs:
+      - templateName: swift5
+        output: Assets.swift
+
+strings:
+  - inputs:
+      - Paws/Resources/Localizable.strings
+    outputs:
+      - templateName: structured-swift5
+        output: Strings.swift
+        params:
+          enumName: PawsStrings
